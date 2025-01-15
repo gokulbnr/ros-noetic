@@ -6,7 +6,7 @@ conda_index:
   - robostack.yaml
   - packages-ignore.yaml
 
-build_number: 18
+build_number: 19
 
 # Ignore all dependencies of selected packages
 skip_all_deps: false
@@ -39,7 +39,7 @@ build_in_own_azure_stage:
 
 skip_existing:
   # - https://conda.anaconda.org/robostack/
-  # - https://conda.anaconda.org/robostack-staging/
+  - https://conda.anaconda.org/robostack-staging/
 
 # This list contains lots of commented-out package names. That is okay.
 # Not all packages need to be rebuilt with every pull request.
